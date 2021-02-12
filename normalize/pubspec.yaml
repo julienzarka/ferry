@@ -6,7 +6,10 @@ repository: https://github.com/gql-dart/ferry
 environment: 
   sdk: '>=2.2.2 <3.0.0'
 dependencies: 
-  gql: ^0.12.4
+  gql:
+    git:
+      url: git://github.com/julienzarka/gql.git
+      path: gql
   meta: ^1.1.8
 dev_dependencies: 
   test: ^1.14.3
